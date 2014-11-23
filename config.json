@@ -1,0 +1,22 @@
+{
+    "port": "3000",
+    "database": "mongodb://localhost:27017/users",
+    "session": {
+        "key": "asdklghakjhsadd21721973hsa1892",
+        "maxAge": 1800000,
+        "expires": 1800000
+    },
+    "facebook": {
+        "clientID": "401085846641266",
+        "clientSecret": "d44148e451df981137b3d570ba54addb",
+        "callbackURL": "http://localhost:3000/auth/facebook/callback"
+    },
+    "emailFrom": "SENDER EMAIL ADDRESS",
+    "mailer": {
+        "service": "SERVICE_PROVIDER",
+        "auth": {
+            "user": "EMAIL_ID",
+            "pass": "PASSWORD"
+        }
+    }
+}
