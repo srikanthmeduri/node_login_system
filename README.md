@@ -8,3 +8,5 @@ npm install
 npm start
 
 npm test
+
+grunt lint

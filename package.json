@@ -21,7 +21,9 @@
         "ms": "0.6.2",
         "grunt-contrib-jshint": "^0.10.0",
         "express-validator": "^2.1.1",
-        "nodemailer": "1.2.2"
+        "nodemailer": "1.2.2",
+        "time-grunt": "^1.0.0",
+        "lodash": "^2.4.1"
     },
     "devDependencies": {
         "grunt-karma": "^0.8.2",

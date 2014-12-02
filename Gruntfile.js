@@ -7,8 +7,6 @@ var paths = {
 
 module.exports = function(grunt) {
 
-    console.log(process.env.NODE_ENV);
-
     if (process.env.NODE_ENV !== 'production') {
         require('time-grunt')(grunt);
     }
@@ -47,6 +45,6 @@ module.exports = function(grunt) {
     grunt.registerTask('test', ['mochaTest', 'karma:unit']);
 
     //js linting
-    //grunt.registerTask('lint', ['jshint']);
+    grunt.registerTask('lint', ['jshint']);
 
 };

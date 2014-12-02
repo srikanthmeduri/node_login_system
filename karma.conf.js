@@ -21,6 +21,7 @@ module.exports = function(config) {
             "public/bower_components/angular-mocks/angular-mocks.js",
             "public/bower_components/angular-resource/angular-resource.js",
             "public/bower_components/angular-ui-router/release/angular-ui-router.js",
+            'public/modules/users.js',
             'public/modules/*.js',
             'public/tests/*.js'
         ],

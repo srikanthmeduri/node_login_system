@@ -3,8 +3,7 @@
 /**
  * Module dependencies.
  */
-var mongoose = require('mongoose'),
-    User = require('./models'),
+var User = require('./models'),
     async = require('async'),
     config = require('../../config'),
     crypto = require('crypto'),
