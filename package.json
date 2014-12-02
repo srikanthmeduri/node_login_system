@@ -14,10 +14,14 @@
         "mongoose": "~3.8.1",
         "morgan": "~1.0.0",
         "passport": "~0.1.17",
+        "passport-local": "^1.0.0",
+        "passport-facebook": "^1.0.3",
         "grunt-cli": "^0.1.13",
         "load-grunt-tasks": "^0.4.0",
         "ms": "0.6.2",
-        "grunt-contrib-jshint": "^0.10.0"
+        "grunt-contrib-jshint": "^0.10.0",
+        "express-validator": "^2.1.1",
+        "nodemailer": "1.2.2"
     },
     "devDependencies": {
         "grunt-karma": "^0.8.2",

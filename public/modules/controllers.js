@@ -9,7 +9,6 @@ angular.module('users')
             $scope.global = Global;
             $scope.isCollapsed = false;
             $rootScope.$on('loggedin', function() {
-                console.log('loggedin');
                 $scope.global = {
                     authenticated: !!$rootScope.user,
                     user: $rootScope.user

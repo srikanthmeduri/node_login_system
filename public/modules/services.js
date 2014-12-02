@@ -3,9 +3,6 @@
 angular.module('users')
     .factory('Global', function() {
         var _this = this;
-
-        console.log(_this);
-
         _this._data = {
             user: window.user,
             authenticated: false,

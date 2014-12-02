@@ -6,6 +6,7 @@ angular.module('users').config(['$stateProvider',
             var deferred = $q.defer();
             $http.get('/loggedin').success(function(user) {
                 if (user !== '0') {
+                    console.log("if (user !== '0') {");
                     $timeout(deferred.reject);
                     $location.url('/login');
                 } else $timeout(deferred.resolve);
